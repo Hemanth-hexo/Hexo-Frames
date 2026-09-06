@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'Space Mono', 'JetBrains Mono', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Anton', 'Archivo Black', sans-serif;
+
+  /* Dark, high-energy palette pulled straight from the actual concert/club
+     shots (neon magenta and cyan stage light, amber spotlight) instead of a
+     quiet editorial neutral — this site should feel like the work it shows. */
+  --color-bg: #0A0A0D;
+  --color-bg-raised: #17171C;
+  --color-fg: #F6F4EF;
+  --color-muted: #9C9AA3;
+  --color-magenta: #FF2E88;
+  --color-cyan: #00E0FF;
+  --color-amber: #FFC130;
+}
+
+/* No hand-written *{margin:0;padding:0} reset here — Tailwind's own
+   Preflight (pulled in by the @import above) already does this correctly,
+   scoped inside its base cascade layer. A reset written outside any layer
+   sits in the "unlayered" bucket, which CSS always prioritizes over layered
+   rules regardless of specificity — so a rule this broad silently zeroed
+   out every padding utility (px-, py-, p-) on the entire site. */
+
+html {
+  font-size: 16px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-magenta);
+  color: var(--color-bg);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-riseIn {
+  animation: riseIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-fadeIn, .animate-riseIn { animation: none; }
+}
