@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HexoFrames
 
-## Getting Started
+Portfolio site for Hemanth Sarode — photographer & videographer, Bengaluru, India. Wildlife, automotive heritage, live music/DJ, and street work, shot on a Sony α6400.
 
-First, run the development server:
+Live at [hexoframes.netlify.app](https://hexoframes.netlify.app) (or your custom domain, if you've set one up in Netlify).
+
+## Stack
+
+- **Next.js** (App Router) + TypeScript
+- **Tailwind CSS v4** for styling
+- Two routes: `/` (single-page portfolio: hero, work grid, about, contact) and `/gallery` (full archive, filterable by category, with a lightbox)
+
+## Adding or editing photos
+
+All content lives in one file: [`src/data/categories.ts`](./src/data/categories.ts). Each category (nature, automotive, wildlife, concerts, etc.) is an entry with a `title`/`subtitle` and a `photos` array. To add a photo:
+
+1. Drop a **web-sized** copy of the image into `public/assets/` (resize the longest edge to ~1200–1600px first — see "Image sizing" below; never commit a full-resolution original here).
+2. Add an entry to the right category's `photos` array with real values — `camera`, `settings` (aperture/shutter/ISO), and `location`/`description` should describe what's actually in the shot, not filler text.
+3. A category with an empty `photos: []` array is automatically hidden from both the homepage grid and the gallery's filter pills — no other code changes needed to add or retire a category.
+
+### Image sizing — why this matters
+
+`public/` is what actually gets deployed and downloaded by every visitor. Camera originals from the α6400 are typically 15–30MB each; at that size a handful of photos would blow past Netlify's free-tier bandwidth fast. Before adding any photo:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+sips -Z 1400 -s formatOptions 75 your-photo.jpg --out public/assets/your-photo.jpg
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+That resizes the longest edge to 1400px and compresses to ~75% JPEG quality — typically under 200KB, indistinguishable from the original at web display sizes. (`sips` is macOS-only and can't write `.webp`; if you want `.webp` specifically you'll need `cwebp` or an online converter — Next.js's `<Image>` component optimizes either format fine, so `.jpg` is a perfectly reasonable default.)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+Opens at `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Connected to Netlify via this GitHub repo — every push to `main` deploys automatically. No manual build-and-drag-drop step anymore.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git add -A
+git commit -m "..."
+git push
+```
 
-## Deploy on Vercel
+That's it — Netlify picks up the push and rebuilds within a couple of minutes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/
+  app/
+    page.tsx          Homepage — hero, work grid, about, contact
+    gallery/page.tsx   Full archive with category filters + lightbox
+    layout.tsx          Fonts (Anton display, Space Mono for technical
+                         labels, Inter for body) + page metadata
+    globals.css          Color tokens, Tailwind theme
+  components/
+    Nav.tsx              Shared nav bar (desktop + mobile menu)
+  data/
+    categories.ts        All photo content — the only file you need to
+                          touch to add, edit, or reorder photos
+public/
+  assets/                Web-sized photos actually served to visitors
+  ads.txt                 AdSense verification — must live here to be
+                            served at the real domain root
+```
