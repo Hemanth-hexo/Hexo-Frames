@@ -495,6 +495,15 @@
         "camera": "Sony a6400",
         "settings": "f/1.4 · 1/80s · ISO 640",
         "description": "A late-night set, lit low and warm."
+      },
+      {
+        "id": "concert-1788690680710",
+        "src": "/assets/test-upload-safe-to-delete-1788690680268.jpg",
+        "title": "TEST UPLOAD — safe to delete",
+        "location": "",
+        "camera": "Sony ILCE-6400",
+        "settings": "f/4 · 1/60s · ISO 5000",
+        "description": "Verifying the admin upload pipeline end to end."
       }
     ]
   },
