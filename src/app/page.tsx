@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Nav from "@/components/Nav";
+import ContactForm from "@/components/ContactForm";
 import { worldCategories } from "@/data/categories";
 
 const workCategories = worldCategories.filter((cat) => cat.photos.length > 0);
@@ -136,7 +137,7 @@ export default function HomePage() {
 
       {/* Contact */}
       <section id="contact" className="border-t border-fg/10 bg-bg scroll-mt-16">
-        <div className="max-w-6xl mx-auto px-6 sm:px-12 lg:px-20 py-24 sm:py-32 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-10">
+        <div className="max-w-6xl mx-auto px-6 sm:px-12 lg:px-20 py-24 sm:py-32 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
           <div>
             <span className="font-mono text-xs uppercase tracking-[0.25em] text-magenta">
               Let&rsquo;s create together
@@ -144,20 +145,21 @@ export default function HomePage() {
             <h2 className="font-display text-4xl sm:text-6xl mt-4 uppercase leading-[1.05]">
               Inquiries &amp; collaborations.
             </h2>
+            <div className="flex flex-col gap-3 font-mono text-sm mt-8">
+              <a href="mailto:hemanthsarode1@gmail.com" className="border-b border-cyan/40 hover:border-cyan hover:text-cyan pb-1.5 transition-colors w-fit">
+                hemanthsarode1@gmail.com
+              </a>
+              <a
+                href="https://instagram.com/hexo_frames"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-b border-cyan/40 hover:border-cyan hover:text-cyan pb-1.5 transition-colors w-fit"
+              >
+                @hexo_frames ↗
+              </a>
+            </div>
           </div>
-          <div className="flex flex-col gap-4 font-mono text-sm">
-            <a href="mailto:hemanthsarode1@gmail.com" className="border-b border-cyan/40 hover:border-cyan hover:text-cyan pb-1.5 transition-colors w-fit">
-              hemanthsarode1@gmail.com
-            </a>
-            <a
-              href="https://instagram.com/hexo_frames"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-b border-cyan/40 hover:border-cyan hover:text-cyan pb-1.5 transition-colors w-fit"
-            >
-              @hexo_frames ↗
-            </a>
-          </div>
+          <ContactForm />
         </div>
         <div className="max-w-6xl mx-auto px-6 sm:px-12 lg:px-20 pb-10 flex flex-col sm:flex-row justify-between gap-2 font-mono text-[0.65rem] text-muted uppercase tracking-widest">
           <span>© {new Date().getFullYear()} HexoFrames</span>

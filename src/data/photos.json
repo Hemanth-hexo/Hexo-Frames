@@ -1,0 +1,519 @@
+[
+  {
+    "id": "about",
+    "name": "01 / About Me",
+    "positionX": 600,
+    "iconType": "about",
+    "title": "THE EXPLORER",
+    "subtitle": "Collecting moments between light and silence",
+    "photos": []
+  },
+  {
+    "id": "nature",
+    "name": "02 / Nature & Mountains",
+    "positionX": 1400,
+    "iconType": "nature",
+    "title": "INTO THE WILD",
+    "subtitle": "Waterfalls, forests & untamed landscapes",
+    "photos": [
+      {
+        "id": "nature-1",
+        "src": "/assets/AdobeStock_535951984.webp",
+        "title": "Courtallam Falls",
+        "location": "Courtallam, Tamil Nadu",
+        "camera": "Sony a6400",
+        "settings": "f/8.0 · 1/2000s · ISO 100",
+        "description": "Water cascading down ancient rock faces at the falls of Courtallam. Shot through the mist."
+      },
+      {
+        "id": "nature-2",
+        "src": "/assets/AdobeStock_1952152517.webp",
+        "title": "Forest Light Break",
+        "location": "South India",
+        "camera": "Sony a6400",
+        "settings": "f/5.6 · 1/800s · ISO 200",
+        "description": "Golden light filtering through dense forest canopy onto the forest floor."
+      },
+      {
+        "id": "nature-3",
+        "src": "/assets/AdobeStock_1952152557.webp",
+        "title": "Wild Green Cover",
+        "location": "South India",
+        "camera": "Sony a6400",
+        "settings": "f/6.3 · 1/640s · ISO 320",
+        "description": "Dense green foliage and natural undergrowth captured in soft natural light."
+      }
+    ]
+  },
+  {
+    "id": "cars",
+    "name": "03 / Automotive Heritage",
+    "positionX": 2200,
+    "iconType": "cars",
+    "title": "VINTAGE CHROME",
+    "subtitle": "Mid-century lacquer & museum spotlighting",
+    "photos": [
+      {
+        "id": "auto-1",
+        "src": "/assets/DSC01847.webp",
+        "title": "Teal Classic Bel Air",
+        "location": "Bangalore",
+        "camera": "Sony a6400",
+        "settings": "f/2.8 · 1/250s · ISO 400",
+        "description": "Iconic two-tone 1955 Chevrolet Bel Air under directional ceiling lights."
+      },
+      {
+        "id": "auto-2",
+        "src": "/assets/DSC01812.webp",
+        "title": "Vintage Maroon Curves",
+        "location": "Bangalore",
+        "camera": "Sony a6400",
+        "settings": "f/4.0 · 1/160s · ISO 800",
+        "description": "Classic fender curves and chrome trim in warm nostalgic tones."
+      },
+      {
+        "id": "auto-3",
+        "src": "/assets/DSC01867.webp",
+        "title": "Retro Scooter Lineup",
+        "location": "Bangalore",
+        "camera": "Sony a6400",
+        "settings": "f/3.2 · 1/400s · ISO 200",
+        "description": "Mid-century scooters aligned under soft gallery illumination."
+      },
+      {
+        "id": "auto-4",
+        "src": "/assets/DSC01899.webp",
+        "title": "Winged Heritage Austin",
+        "location": "Bangalore",
+        "camera": "Sony a6400",
+        "settings": "f/2.8 · 1/500s · ISO 100",
+        "description": "Chrome flying emblem shot with high contrast tone curves."
+      },
+      {
+        "id": "auto-5",
+        "src": "/assets/DSC01802.webp",
+        "title": "Classic in Frame",
+        "location": "Bangalore",
+        "camera": "Sony a6400",
+        "settings": "f/3.5 · 1/320s · ISO 200",
+        "description": "Vintage automobile detail in warm indoor light."
+      },
+      {
+        "id": "auto-6",
+        "src": "/assets/DSC01819.webp",
+        "title": "Heritage Detail",
+        "location": "Bangalore",
+        "camera": "Sony a6400",
+        "settings": "f/2.8 · 1/400s · ISO 320",
+        "description": "Close-up of classic automotive craftsmanship and original bodywork."
+      }
+    ]
+  },
+  {
+    "id": "wildlife",
+    "name": "04 / Wildlife Safari",
+    "positionX": 3000,
+    "iconType": "wildlife",
+    "title": "THE WILD TRACK",
+    "subtitle": "Tracking tigers and forest fauna",
+    "photos": [
+      {
+        "id": "wild-1",
+        "src": "/assets/AdobeStock_1952152697.webp",
+        "title": "Silent Stride of Bengal",
+        "location": "Tiger Reserve, India",
+        "camera": "Sony a6400",
+        "settings": "f/6.3 · 1/1000s · ISO 640",
+        "description": "An apex predator gliding through dry golden brush. Captured at 600mm telephoto reach."
+      },
+      {
+        "id": "wild-2",
+        "src": "/assets/AdobeStock_1952152810.webp",
+        "title": "Tigress Gaze",
+        "location": "Forest Reserve, India",
+        "camera": "Sony a6400",
+        "settings": "f/6.3 · 1/800s · ISO 800",
+        "description": "Piercing golden eyes locking onto the lens from deep jungle foliage."
+      },
+      {
+        "id": "wild-3",
+        "src": "/assets/AdobeStock_1952152285.webp",
+        "title": "Spotted Deer at Rest",
+        "location": "Forest, India",
+        "camera": "Sony a6400",
+        "settings": "f/5.6 · 1/500s · ISO 400",
+        "description": "A spotted deer resting calm in a forest clearing under filtered canopy light."
+      }
+    ]
+  },
+  {
+    "id": "concert",
+    "name": "05 / DJ & Concerts",
+    "positionX": 3800,
+    "iconType": "concert",
+    "title": "ELECTRIC HYPNOSIS",
+    "subtitle": "Stage strobes, laser grids & crowd energy",
+    "photos": [
+      {
+        "id": "conc-1",
+        "src": "/assets/DSC03283.webp",
+        "title": "Electric Violet Surge",
+        "location": "Live Concert, India",
+        "camera": "Sony a6400",
+        "settings": "f/2.8 · 1/250s · ISO 1600",
+        "description": "Deep purple and cyan stage beams slicing through smoke haze above the crowd."
+      },
+      {
+        "id": "conc-2",
+        "src": "/assets/IMG_3745.webp",
+        "title": "Solo in Warm Amber",
+        "location": "Live Music Night, Bangalore",
+        "camera": "Sony a6400",
+        "settings": "f/2.8 · 1/320s · ISO 1250",
+        "description": "Single amber spotlight on the guitarist during a climactic solo."
+      },
+      {
+        "id": "conc-3",
+        "src": "/assets/IMG_3746.webp",
+        "title": "Stage Lights",
+        "location": "Live Concert, India",
+        "camera": "Sony a6400",
+        "settings": "f/3.5 · 1/160s · ISO 2000",
+        "description": "Vivid stage lighting cutting through the concert atmosphere."
+      },
+      {
+        "id": "conc-4",
+        "src": "/assets/IMG_3773.webp",
+        "title": "Crowd & Colour",
+        "location": "Live Concert, India",
+        "camera": "Sony a6400",
+        "settings": "f/2.8 · 1/200s · ISO 1800",
+        "description": "Crowd energy and colourful light beams merging into one frame."
+      },
+      {
+        "id": "conc-5",
+        "src": "/assets/IMG_3774.webp",
+        "title": "On Stage",
+        "location": "Live Concert, India",
+        "camera": "Sony a6400",
+        "settings": "f/3.2 · 1/250s · ISO 1400",
+        "description": "Performer under the spotlight, captured mid-set."
+      },
+      {
+        "id": "conc-6",
+        "src": "/assets/DSC04306.jpg",
+        "title": "Set Behind the Swirl",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/5.6 · 1/60s · ISO 3200",
+        "description": "DJ mixing in front of a glowing spiral video backdrop."
+      },
+      {
+        "id": "conc-7",
+        "src": "/assets/DSC04404.jpg",
+        "title": "Backstage Portrait",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/2.8 · 1/100s · ISO 6400",
+        "description": "A quiet portrait against the bar's back shelf between sets."
+      },
+      {
+        "id": "conc-8",
+        "src": "/assets/DSC04424.jpg",
+        "title": "Red Room Crowd",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/2.8 · 1/100s · ISO 800",
+        "description": "Silhouettes gathered under a single red spotlight."
+      },
+      {
+        "id": "conc-9",
+        "src": "/assets/DSC04480.jpg",
+        "title": "Profile in Red",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/4.0 · 1/60s · ISO 6400",
+        "description": "A profile portrait lit entirely in red stage light."
+      },
+      {
+        "id": "conc-10",
+        "src": "/assets/DSC04666.jpg",
+        "title": "Booth Overview",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/4.0 · 1/60s · ISO 6400",
+        "description": "A wide angle from the DJ booth looking out over the setup."
+      },
+      {
+        "id": "conc-11",
+        "src": "/assets/DSC04733.jpg",
+        "title": "Deck Glow",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/4.0 · 1/60s · ISO 5000",
+        "description": "Close-up on the glowing CDJ screens mid-set."
+      },
+      {
+        "id": "conc-12",
+        "src": "/assets/DSC04745.jpg",
+        "title": "Blue Beam Crowd",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/4.0 · 1/60s · ISO 6400",
+        "description": "The crowd catching a single blue beam cutting through the haze."
+      },
+      {
+        "id": "conc-13",
+        "src": "/assets/DSC04760.jpg",
+        "title": "Set Under the Spiral",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/4.0 · 1/100s · ISO 6400",
+        "description": "Another pass at the spiral backdrop, mid-transition."
+      },
+      {
+        "id": "conc-14",
+        "src": "/assets/DSC05758.jpg",
+        "title": "Hands on the Mix",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/100s · ISO 1600",
+        "description": "Hands working the mixer, caught mid-motion."
+      },
+      {
+        "id": "conc-15",
+        "src": "/assets/DSC05764.jpg",
+        "title": "Two on the Decks",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/100s · ISO 1600",
+        "description": "A back-to-back set, two DJs sharing the booth."
+      },
+      {
+        "id": "conc-16",
+        "src": "/assets/DSC05770.jpg",
+        "title": "Shared Set",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/100s · ISO 1600",
+        "description": "The same back-to-back set from a different angle."
+      },
+      {
+        "id": "conc-17",
+        "src": "/assets/DSC05783.jpg",
+        "title": "In the Moment",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/5s · ISO 100",
+        "description": "A long exposure catching the motion of a shared set."
+      },
+      {
+        "id": "conc-18",
+        "src": "/assets/DSC05787.jpg",
+        "title": "Glow Between Sets",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/3s · ISO 100",
+        "description": "Soft motion blur under warm stage light."
+      },
+      {
+        "id": "conc-19",
+        "src": "/assets/DSC05802.jpg",
+        "title": "Side by Side",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/5s · ISO 100",
+        "description": "Two silhouettes lit in magenta and teal."
+      },
+      {
+        "id": "conc-20",
+        "src": "/assets/DSC05803.jpg",
+        "title": "Caught in Motion",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/5s · ISO 100",
+        "description": "A dramatic, blurred moment mid-performance."
+      },
+      {
+        "id": "conc-21",
+        "src": "/assets/DSC05827.jpg",
+        "title": "Duo in Blue Light",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/13s · ISO 100",
+        "description": "A long-exposure pass on the duo set, blue-lit."
+      },
+      {
+        "id": "conc-22",
+        "src": "/assets/DSC05836.jpg",
+        "title": "Focus",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/160s · ISO 2000",
+        "description": "A tight, focused moment mid-set."
+      },
+      {
+        "id": "conc-23",
+        "src": "/assets/DSC05902.jpg",
+        "title": "Between Sets",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/160s · ISO 3200",
+        "description": "A quiet break between sets, lit entirely in red."
+      },
+      {
+        "id": "conc-24",
+        "src": "/assets/DSC05907.jpg",
+        "title": "Profile in Teal and Red",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.8 · 1/160s · ISO 3200",
+        "description": "A profile split between two competing stage colors."
+      },
+      {
+        "id": "conc-25",
+        "src": "/assets/DSC06728.jpg",
+        "title": "Jersey Set",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/100s · ISO 500",
+        "description": "A DJ set against a patterned wall backdrop."
+      },
+      {
+        "id": "conc-26",
+        "src": "/assets/DSC06762.jpg",
+        "title": "Set in Rhythm",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/50s · ISO 1000",
+        "description": "Mid-set, hands on the controller."
+      },
+      {
+        "id": "conc-27",
+        "src": "/assets/DSC06774.jpg",
+        "title": "Between Songs",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/50s · ISO 1000",
+        "description": "A brief exchange between songs."
+      },
+      {
+        "id": "conc-28",
+        "src": "/assets/DSC06801.jpg",
+        "title": "Rooftop Skyline Set",
+        "location": "Rooftop Club, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/100s · ISO 1000",
+        "description": "A rooftop set with the city skyline glowing behind."
+      },
+      {
+        "id": "conc-29",
+        "src": "/assets/DSC06821.jpg",
+        "title": "Hands on the Fader",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/100s · ISO 2000",
+        "description": "A close crop on the mix mid-transition."
+      },
+      {
+        "id": "conc-30",
+        "src": "/assets/DSC06831.jpg",
+        "title": "Quiet Focus",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/100s · ISO 2000",
+        "description": "A dimly lit, focused moment at the decks."
+      },
+      {
+        "id": "conc-31",
+        "src": "/assets/DSC07183.jpg",
+        "title": "In the Mix",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/100s · ISO 2000",
+        "description": "Working the controller under patterned wall light."
+      },
+      {
+        "id": "conc-32",
+        "src": "/assets/DSC07210.jpg",
+        "title": "Masked Set",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/100s · ISO 2000",
+        "description": "A masked performer at the decks, low light."
+      },
+      {
+        "id": "conc-33",
+        "src": "/assets/DSC07252.jpg",
+        "title": "Red Shirt Session",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/3s · ISO 200",
+        "description": "A DJ set lit in warm red against a patterned wall."
+      },
+      {
+        "id": "conc-34",
+        "src": "/assets/DSC07253.jpg",
+        "title": "Motion in Red",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/3s · ISO 200",
+        "description": "A long exposure pass on the same set."
+      },
+      {
+        "id": "conc-35",
+        "src": "/assets/DSC07255.jpg",
+        "title": "Blurred Rhythm",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/3s · ISO 200",
+        "description": "Continued motion blur, same performer."
+      },
+      {
+        "id": "conc-36",
+        "src": "/assets/DSC07316.jpg",
+        "title": "Waveform",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/2.5 · 1/200s · ISO 640",
+        "description": "A close crop on the deck's waveform display."
+      },
+      {
+        "id": "conc-37",
+        "src": "/assets/DSC07328.jpg",
+        "title": "Crowd Reaction",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/80s · ISO 640",
+        "description": "A performer reacting to the crowd mid-set."
+      },
+      {
+        "id": "conc-38",
+        "src": "/assets/DSC07354.jpg",
+        "title": "Late Set",
+        "location": "Club Night, India",
+        "camera": "Sony a6400",
+        "settings": "f/1.4 · 1/80s · ISO 640",
+        "description": "A late-night set, lit low and warm."
+      }
+    ]
+  },
+  {
+    "id": "street",
+    "name": "06 / Street & Urban",
+    "positionX": 4600,
+    "iconType": "street",
+    "title": "URBAN FRAMES",
+    "subtitle": "City geometry, light & everyday moments",
+    "photos": []
+  },
+  {
+    "id": "contact",
+    "name": "07 / Campsite Contact",
+    "positionX": 5400,
+    "iconType": "contact",
+    "title": "LET'S CREATE TOGETHER",
+    "subtitle": "End of the trail • Inquiries & collaborations",
+    "photos": []
+  }
+]

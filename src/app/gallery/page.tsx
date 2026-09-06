@@ -4,6 +4,7 @@ import { Suspense, useState, useCallback, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Nav from "@/components/Nav";
+import ContactForm from "@/components/ContactForm";
 import { worldCategories, PhotoItem, WorldCategory } from "@/data/categories";
 
 function LazySection({ children }: { children: React.ReactNode }) {
@@ -199,26 +200,27 @@ function GalleryContent() {
 
       {/* Contact */}
       <section className="border-t border-fg/10 bg-bg-raised">
-        <div className="max-w-6xl mx-auto px-6 sm:px-12 lg:px-20 py-20 sm:py-24 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-10">
+        <div className="max-w-6xl mx-auto px-6 sm:px-12 lg:px-20 py-20 sm:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
           <div>
             <span className="font-mono text-xs uppercase tracking-[0.25em] text-magenta">
               Let&rsquo;s create together
             </span>
             <h2 className="font-display text-4xl sm:text-5xl mt-4 uppercase">Inquiries &amp; collaborations.</h2>
+            <div className="flex flex-col gap-3 font-mono text-sm mt-8">
+              <a href="mailto:hemanthsarode1@gmail.com" className="border-b border-cyan/40 hover:border-cyan hover:text-cyan pb-1.5 transition-colors w-fit">
+                hemanthsarode1@gmail.com
+              </a>
+              <a
+                href="https://instagram.com/hexo_frames"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-b border-cyan/40 hover:border-cyan hover:text-cyan pb-1.5 transition-colors w-fit"
+              >
+                @hexo_frames ↗
+              </a>
+            </div>
           </div>
-          <div className="flex flex-col gap-4 font-mono text-sm">
-            <a href="mailto:hemanthsarode1@gmail.com" className="border-b border-cyan/40 hover:border-cyan hover:text-cyan pb-1.5 transition-colors w-fit">
-              hemanthsarode1@gmail.com
-            </a>
-            <a
-              href="https://instagram.com/hexo_frames"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-b border-cyan/40 hover:border-cyan hover:text-cyan pb-1.5 transition-colors w-fit"
-            >
-              @hexo_frames ↗
-            </a>
-          </div>
+          <ContactForm />
         </div>
       </section>
 
