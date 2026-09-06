@@ -22,7 +22,7 @@
         "title": "Courtallam Falls",
         "location": "Courtallam, Tamil Nadu",
         "camera": "Sony a6400",
-        "settings": "f/8.0 \u00b7 1/2000s \u00b7 ISO 100",
+        "settings": "f/8.0 · 1/2000s · ISO 100",
         "description": "Water cascading down ancient rock faces at the falls of Courtallam. Shot through the mist."
       },
       {
@@ -31,7 +31,7 @@
         "title": "Forest Light Break",
         "location": "South India",
         "camera": "Sony a6400",
-        "settings": "f/5.6 \u00b7 1/800s \u00b7 ISO 200",
+        "settings": "f/5.6 · 1/800s · ISO 200",
         "description": "Golden light filtering through dense forest canopy onto the forest floor."
       },
       {
@@ -40,7 +40,7 @@
         "title": "Wild Green Cover",
         "location": "South India",
         "camera": "Sony a6400",
-        "settings": "f/6.3 \u00b7 1/640s \u00b7 ISO 320",
+        "settings": "f/6.3 · 1/640s · ISO 320",
         "description": "Dense green foliage and natural undergrowth captured in soft natural light."
       }
     ]
@@ -59,7 +59,7 @@
         "title": "Teal Classic Bel Air",
         "location": "Bangalore",
         "camera": "Sony a6400",
-        "settings": "f/2.8 \u00b7 1/250s \u00b7 ISO 400",
+        "settings": "f/2.8 · 1/250s · ISO 400",
         "description": "Iconic two-tone 1955 Chevrolet Bel Air under directional ceiling lights."
       },
       {
@@ -68,7 +68,7 @@
         "title": "Vintage Maroon Curves",
         "location": "Bangalore",
         "camera": "Sony a6400",
-        "settings": "f/4.0 \u00b7 1/160s \u00b7 ISO 800",
+        "settings": "f/4.0 · 1/160s · ISO 800",
         "description": "Classic fender curves and chrome trim in warm nostalgic tones."
       },
       {
@@ -77,7 +77,7 @@
         "title": "Retro Scooter Lineup",
         "location": "Bangalore",
         "camera": "Sony a6400",
-        "settings": "f/3.2 \u00b7 1/400s \u00b7 ISO 200",
+        "settings": "f/3.2 · 1/400s · ISO 200",
         "description": "Mid-century scooters aligned under soft gallery illumination."
       },
       {
@@ -86,7 +86,7 @@
         "title": "Winged Heritage Austin",
         "location": "Bangalore",
         "camera": "Sony a6400",
-        "settings": "f/2.8 \u00b7 1/500s \u00b7 ISO 100",
+        "settings": "f/2.8 · 1/500s · ISO 100",
         "description": "Chrome flying emblem shot with high contrast tone curves."
       },
       {
@@ -95,7 +95,7 @@
         "title": "Classic in Frame",
         "location": "Bangalore",
         "camera": "Sony a6400",
-        "settings": "f/3.5 \u00b7 1/320s \u00b7 ISO 200",
+        "settings": "f/3.5 · 1/320s · ISO 200",
         "description": "Vintage automobile detail in warm indoor light."
       },
       {
@@ -104,7 +104,7 @@
         "title": "Heritage Detail",
         "location": "Bangalore",
         "camera": "Sony a6400",
-        "settings": "f/2.8 \u00b7 1/400s \u00b7 ISO 320",
+        "settings": "f/2.8 · 1/400s · ISO 320",
         "description": "Close-up of classic automotive craftsmanship and original bodywork."
       }
     ]
@@ -123,7 +123,7 @@
         "title": "Silent Stride of Bengal",
         "location": "Tiger Reserve, India",
         "camera": "Sony a6400",
-        "settings": "f/6.3 \u00b7 1/1000s \u00b7 ISO 640",
+        "settings": "f/6.3 · 1/1000s · ISO 640",
         "description": "An apex predator gliding through dry golden brush. Captured at 600mm telephoto reach."
       },
       {
@@ -132,7 +132,7 @@
         "title": "Tigress Gaze",
         "location": "Forest Reserve, India",
         "camera": "Sony a6400",
-        "settings": "f/6.3 \u00b7 1/800s \u00b7 ISO 800",
+        "settings": "f/6.3 · 1/800s · ISO 800",
         "description": "Piercing golden eyes locking onto the lens from deep jungle foliage."
       },
       {
@@ -141,7 +141,7 @@
         "title": "Spotted Deer at Rest",
         "location": "Forest, India",
         "camera": "Sony a6400",
-        "settings": "f/5.6 \u00b7 1/500s \u00b7 ISO 400",
+        "settings": "f/5.6 · 1/500s · ISO 400",
         "description": "A spotted deer resting calm in a forest clearing under filtered canopy light."
       }
     ]
@@ -160,7 +160,7 @@
         "title": "Electric Violet Surge",
         "location": "Live Concert, India",
         "camera": "Sony a6400",
-        "settings": "f/2.8 \u00b7 1/250s \u00b7 ISO 1600",
+        "settings": "f/2.8 · 1/250s · ISO 1600",
         "description": "Deep purple and cyan stage beams slicing through smoke haze above the crowd."
       },
       {
@@ -169,7 +169,7 @@
         "title": "Solo in Warm Amber",
         "location": "Live Music Night, Bangalore",
         "camera": "Sony a6400",
-        "settings": "f/2.8 \u00b7 1/320s \u00b7 ISO 1250",
+        "settings": "f/2.8 · 1/320s · ISO 1250",
         "description": "Single amber spotlight on the guitarist during a climactic solo."
       },
       {
@@ -178,7 +178,7 @@
         "title": "Stage Lights",
         "location": "Live Concert, India",
         "camera": "Sony a6400",
-        "settings": "f/3.5 \u00b7 1/160s \u00b7 ISO 2000",
+        "settings": "f/3.5 · 1/160s · ISO 2000",
         "description": "Vivid stage lighting cutting through the concert atmosphere."
       },
       {
@@ -187,7 +187,7 @@
         "title": "Crowd & Colour",
         "location": "Live Concert, India",
         "camera": "Sony a6400",
-        "settings": "f/2.8 \u00b7 1/200s \u00b7 ISO 1800",
+        "settings": "f/2.8 · 1/200s · ISO 1800",
         "description": "Crowd energy and colourful light beams merging into one frame."
       },
       {
@@ -196,7 +196,7 @@
         "title": "On Stage",
         "location": "Live Concert, India",
         "camera": "Sony a6400",
-        "settings": "f/3.2 \u00b7 1/250s \u00b7 ISO 1400",
+        "settings": "f/3.2 · 1/250s · ISO 1400",
         "description": "Performer under the spotlight, captured mid-set."
       },
       {
@@ -205,7 +205,7 @@
         "title": "Set Behind the Swirl",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/5.6 \u00b7 1/60s \u00b7 ISO 3200",
+        "settings": "f/5.6 · 1/60s · ISO 3200",
         "description": "DJ mixing in front of a glowing spiral video backdrop."
       },
       {
@@ -214,7 +214,7 @@
         "title": "Backstage Portrait",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/2.8 \u00b7 1/100s \u00b7 ISO 6400",
+        "settings": "f/2.8 · 1/100s · ISO 6400",
         "description": "A quiet portrait against the bar's back shelf between sets."
       },
       {
@@ -223,7 +223,7 @@
         "title": "Red Room Crowd",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/2.8 \u00b7 1/100s \u00b7 ISO 800",
+        "settings": "f/2.8 · 1/100s · ISO 800",
         "description": "Silhouettes gathered under a single red spotlight."
       },
       {
@@ -232,7 +232,7 @@
         "title": "Profile in Red",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/4.0 \u00b7 1/60s \u00b7 ISO 6400",
+        "settings": "f/4.0 · 1/60s · ISO 6400",
         "description": "A profile portrait lit entirely in red stage light."
       },
       {
@@ -241,7 +241,7 @@
         "title": "Booth Overview",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/4.0 \u00b7 1/60s \u00b7 ISO 6400",
+        "settings": "f/4.0 · 1/60s · ISO 6400",
         "description": "A wide angle from the DJ booth looking out over the setup."
       },
       {
@@ -250,7 +250,7 @@
         "title": "Deck Glow",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/4.0 \u00b7 1/60s \u00b7 ISO 5000",
+        "settings": "f/4.0 · 1/60s · ISO 5000",
         "description": "Close-up on the glowing CDJ screens mid-set."
       },
       {
@@ -259,7 +259,7 @@
         "title": "Blue Beam Crowd",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/4.0 \u00b7 1/60s \u00b7 ISO 6400",
+        "settings": "f/4.0 · 1/60s · ISO 6400",
         "description": "The crowd catching a single blue beam cutting through the haze."
       },
       {
@@ -268,7 +268,7 @@
         "title": "Set Under the Spiral",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/4.0 \u00b7 1/100s \u00b7 ISO 6400",
+        "settings": "f/4.0 · 1/100s · ISO 6400",
         "description": "Another pass at the spiral backdrop, mid-transition."
       },
       {
@@ -277,7 +277,7 @@
         "title": "Hands on the Mix",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/100s \u00b7 ISO 1600",
+        "settings": "f/1.8 · 1/100s · ISO 1600",
         "description": "Hands working the mixer, caught mid-motion."
       },
       {
@@ -286,7 +286,7 @@
         "title": "Two on the Decks",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/100s \u00b7 ISO 1600",
+        "settings": "f/1.8 · 1/100s · ISO 1600",
         "description": "A back-to-back set, two DJs sharing the booth."
       },
       {
@@ -295,7 +295,7 @@
         "title": "Shared Set",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/100s \u00b7 ISO 1600",
+        "settings": "f/1.8 · 1/100s · ISO 1600",
         "description": "The same back-to-back set from a different angle."
       },
       {
@@ -304,7 +304,7 @@
         "title": "In the Moment",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/5s \u00b7 ISO 100",
+        "settings": "f/1.8 · 1/5s · ISO 100",
         "description": "A long exposure catching the motion of a shared set."
       },
       {
@@ -313,7 +313,7 @@
         "title": "Glow Between Sets",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/3s \u00b7 ISO 100",
+        "settings": "f/1.8 · 1/3s · ISO 100",
         "description": "Soft motion blur under warm stage light."
       },
       {
@@ -322,7 +322,7 @@
         "title": "Side by Side",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/5s \u00b7 ISO 100",
+        "settings": "f/1.8 · 1/5s · ISO 100",
         "description": "Two silhouettes lit in magenta and teal."
       },
       {
@@ -331,7 +331,7 @@
         "title": "Caught in Motion",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/5s \u00b7 ISO 100",
+        "settings": "f/1.8 · 1/5s · ISO 100",
         "description": "A dramatic, blurred moment mid-performance."
       },
       {
@@ -340,7 +340,7 @@
         "title": "Duo in Blue Light",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/13s \u00b7 ISO 100",
+        "settings": "f/1.8 · 1/13s · ISO 100",
         "description": "A long-exposure pass on the duo set, blue-lit."
       },
       {
@@ -349,7 +349,7 @@
         "title": "Focus",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/160s \u00b7 ISO 2000",
+        "settings": "f/1.8 · 1/160s · ISO 2000",
         "description": "A tight, focused moment mid-set."
       },
       {
@@ -358,7 +358,7 @@
         "title": "Between Sets",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/160s \u00b7 ISO 3200",
+        "settings": "f/1.8 · 1/160s · ISO 3200",
         "description": "A quiet break between sets, lit entirely in red."
       },
       {
@@ -367,7 +367,7 @@
         "title": "Profile in Teal and Red",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.8 \u00b7 1/160s \u00b7 ISO 3200",
+        "settings": "f/1.8 · 1/160s · ISO 3200",
         "description": "A profile split between two competing stage colors."
       },
       {
@@ -376,7 +376,7 @@
         "title": "Jersey Set",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/100s \u00b7 ISO 500",
+        "settings": "f/1.4 · 1/100s · ISO 500",
         "description": "A DJ set against a patterned wall backdrop."
       },
       {
@@ -385,7 +385,7 @@
         "title": "Set in Rhythm",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/50s \u00b7 ISO 1000",
+        "settings": "f/1.4 · 1/50s · ISO 1000",
         "description": "Mid-set, hands on the controller."
       },
       {
@@ -394,7 +394,7 @@
         "title": "Between Songs",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/50s \u00b7 ISO 1000",
+        "settings": "f/1.4 · 1/50s · ISO 1000",
         "description": "A brief exchange between songs."
       },
       {
@@ -403,7 +403,7 @@
         "title": "Rooftop Skyline Set",
         "location": "Rooftop Club, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/100s \u00b7 ISO 1000",
+        "settings": "f/1.4 · 1/100s · ISO 1000",
         "description": "A rooftop set with the city skyline glowing behind."
       },
       {
@@ -412,7 +412,7 @@
         "title": "Hands on the Fader",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/100s \u00b7 ISO 2000",
+        "settings": "f/1.4 · 1/100s · ISO 2000",
         "description": "A close crop on the mix mid-transition."
       },
       {
@@ -421,7 +421,7 @@
         "title": "Quiet Focus",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/100s \u00b7 ISO 2000",
+        "settings": "f/1.4 · 1/100s · ISO 2000",
         "description": "A dimly lit, focused moment at the decks."
       },
       {
@@ -430,7 +430,7 @@
         "title": "In the Mix",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/100s \u00b7 ISO 2000",
+        "settings": "f/1.4 · 1/100s · ISO 2000",
         "description": "Working the controller under patterned wall light."
       },
       {
@@ -439,7 +439,7 @@
         "title": "Masked Set",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/100s \u00b7 ISO 2000",
+        "settings": "f/1.4 · 1/100s · ISO 2000",
         "description": "A masked performer at the decks, low light."
       },
       {
@@ -448,7 +448,7 @@
         "title": "Red Shirt Session",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/3s \u00b7 ISO 200",
+        "settings": "f/1.4 · 1/3s · ISO 200",
         "description": "A DJ set lit in warm red against a patterned wall."
       },
       {
@@ -457,7 +457,7 @@
         "title": "Motion in Red",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/3s \u00b7 ISO 200",
+        "settings": "f/1.4 · 1/3s · ISO 200",
         "description": "A long exposure pass on the same set."
       },
       {
@@ -466,7 +466,7 @@
         "title": "Blurred Rhythm",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/3s \u00b7 ISO 200",
+        "settings": "f/1.4 · 1/3s · ISO 200",
         "description": "Continued motion blur, same performer."
       },
       {
@@ -475,7 +475,7 @@
         "title": "Waveform",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/2.5 \u00b7 1/200s \u00b7 ISO 640",
+        "settings": "f/2.5 · 1/200s · ISO 640",
         "description": "A close crop on the deck's waveform display."
       },
       {
@@ -484,7 +484,7 @@
         "title": "Crowd Reaction",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/80s \u00b7 ISO 640",
+        "settings": "f/1.4 · 1/80s · ISO 640",
         "description": "A performer reacting to the crowd mid-set."
       },
       {
@@ -493,7 +493,7 @@
         "title": "Late Set",
         "location": "Club Night, India",
         "camera": "Sony a6400",
-        "settings": "f/1.4 \u00b7 1/80s \u00b7 ISO 640",
+        "settings": "f/1.4 · 1/80s · ISO 640",
         "description": "A late-night set, lit low and warm."
       }
     ]
@@ -513,7 +513,7 @@
     "positionX": 5400,
     "iconType": "contact",
     "title": "LET'S CREATE TOGETHER",
-    "subtitle": "End of the trail \u2022 Inquiries & collaborations",
+    "subtitle": "End of the trail • Inquiries & collaborations",
     "photos": []
   }
 ]
